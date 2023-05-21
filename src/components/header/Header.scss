@@ -1,0 +1,9 @@
+.navLink {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    &:not(:last-child) {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
